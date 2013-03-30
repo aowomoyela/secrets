@@ -1,0 +1,1950 @@
+2013/03/29 20:18:23 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "/Library/WebServer/Documents/secrets/assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in /Library/WebServer/libraries/yii/framework/web/CAssetManager.php:116
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CAssetManager.php(101): CAssetManager->setBasePath('/Library/WebSer...')
+#1 /Library/WebServer/libraries/yii/framework/web/CAssetManager.php(219): CAssetManager->getBasePath()
+#2 /Library/WebServer/libraries/yii/framework/web/CClientScript.php(449): CAssetManager->publish('/Library/WebSer...')
+#3 /Library/WebServer/libraries/yii/framework/web/CClientScript.php(486): CClientScript->getCoreScriptUrl()
+#4 /Library/WebServer/libraries/yii/framework/web/CClientScript.php(302): CClientScript->getPackageBaseUrl('jquery')
+#5 /Library/WebServer/libraries/yii/framework/web/CClientScript.php(195): CClientScript->renderCoreScripts()
+#6 /Library/WebServer/libraries/yii/framework/web/CController.php(352): CClientScript->render('<!DOCTYPE html ...')
+#7 /Library/WebServer/libraries/yii/framework/web/CController.php(789): CController->processOutput('<!DOCTYPE html ...')
+#8 /Library/WebServer/Documents/secrets/protected/controllers/SiteController.php(66): CController->render('contact', Array)
+#9 /Library/WebServer/libraries/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#10 /Library/WebServer/libraries/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Library/WebServer/libraries/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Library/WebServer/libraries/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('contact')
+#14 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/contact')
+#15 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/secrets/site/contact
+HTTP_REFERER=http://localhost/secrets/site/page?view=about
+---
+2013/03/29 20:55:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 20:55:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 20:55:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 20:55:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 20:56:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 20:56:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 20:57:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 20:58:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 20:58:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 20:58:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 20:59:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 20:59:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:00:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:00:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:00:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:01:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:01:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:01:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:01:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:01:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:01:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:01:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:01:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:01:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:01:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:01:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:01:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:01:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:01:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:01:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:01:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:02:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:02:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:03:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:03:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:03:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:03:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:03:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:03:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:03:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:03:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:03:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:03:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:03:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:03:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:03:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:04:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:04:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:04:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:04:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:04:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:04:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:04:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:04:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:04:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:04:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:04:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:04:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:04:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:04:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:04:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:04:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:04:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:04:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:04:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:04:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:05:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:05:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:05:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:05:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:11:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:11:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:11:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:11:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:12:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:12:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:28:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/index
+---
+2013/03/29 21:28:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 21:53:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'secrets'@'localhost' (using password: YES)' in /Library/WebServer/libraries/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /Library/WebServer/libraries/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /Library/WebServer/libraries/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /Library/WebServer/libraries/yii/framework/base/CModule.php(104): CModule->getComponent('db')
+#4 /Library/WebServer/libraries/yii/framework/gii/generators/model/ModelCode.php(54): CModule->__get('db')
+#5 /Library/WebServer/libraries/yii/framework/web/CFormModel.php(40): ModelCode->init()
+#6 /Library/WebServer/libraries/yii/framework/gii/CCodeGenerator.php(152): CFormModel->__construct()
+#7 /Library/WebServer/libraries/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 /Library/WebServer/libraries/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /Library/WebServer/libraries/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /Library/WebServer/libraries/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /Library/WebServer/libraries/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('')
+#13 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/secrets/gii/model
+HTTP_REFERER=http://localhost/secrets/gii/default/index
+---
+2013/03/29 21:54:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1044] Access denied for user 'secrets'@'localhost' to database 'testdrive'' in /Library/WebServer/libraries/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /Library/WebServer/libraries/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /Library/WebServer/libraries/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /Library/WebServer/libraries/yii/framework/base/CModule.php(104): CModule->getComponent('db')
+#4 /Library/WebServer/libraries/yii/framework/gii/generators/model/ModelCode.php(54): CModule->__get('db')
+#5 /Library/WebServer/libraries/yii/framework/web/CFormModel.php(40): ModelCode->init()
+#6 /Library/WebServer/libraries/yii/framework/gii/CCodeGenerator.php(152): CFormModel->__construct()
+#7 /Library/WebServer/libraries/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 /Library/WebServer/libraries/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /Library/WebServer/libraries/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /Library/WebServer/libraries/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /Library/WebServer/libraries/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('')
+#13 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/secrets/gii/model
+HTTP_REFERER=http://localhost/secrets/gii/default/index
+---
+2013/03/29 21:54:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1044] Access denied for user 'secrets'@'localhost' to database 'testdrive'' in /Library/WebServer/libraries/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /Library/WebServer/libraries/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /Library/WebServer/libraries/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /Library/WebServer/libraries/yii/framework/base/CModule.php(104): CModule->getComponent('db')
+#4 /Library/WebServer/libraries/yii/framework/gii/generators/model/ModelCode.php(54): CModule->__get('db')
+#5 /Library/WebServer/libraries/yii/framework/web/CFormModel.php(40): ModelCode->init()
+#6 /Library/WebServer/libraries/yii/framework/gii/CCodeGenerator.php(152): CFormModel->__construct()
+#7 /Library/WebServer/libraries/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 /Library/WebServer/libraries/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /Library/WebServer/libraries/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /Library/WebServer/libraries/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /Library/WebServer/libraries/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('')
+#13 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/secrets/gii/model
+HTTP_REFERER=http://localhost/secrets/gii/default/index
+---
+2013/03/29 21:54:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1044] Access denied for user 'secrets'@'localhost' to database 'testdrive'' in /Library/WebServer/libraries/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /Library/WebServer/libraries/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /Library/WebServer/libraries/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /Library/WebServer/libraries/yii/framework/base/CModule.php(104): CModule->getComponent('db')
+#4 /Library/WebServer/libraries/yii/framework/gii/generators/model/ModelCode.php(54): CModule->__get('db')
+#5 /Library/WebServer/libraries/yii/framework/web/CFormModel.php(40): ModelCode->init()
+#6 /Library/WebServer/libraries/yii/framework/gii/CCodeGenerator.php(152): CFormModel->__construct()
+#7 /Library/WebServer/libraries/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 /Library/WebServer/libraries/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /Library/WebServer/libraries/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /Library/WebServer/libraries/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /Library/WebServer/libraries/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('')
+#13 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/secrets/gii/model
+HTTP_REFERER=http://localhost/secrets/gii/default/index
+---
+2013/03/29 21:54:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1044] Access denied for user 'secrets'@'localhost' to database 'testdrive'' in /Library/WebServer/libraries/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /Library/WebServer/libraries/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /Library/WebServer/libraries/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /Library/WebServer/libraries/yii/framework/base/CModule.php(104): CModule->getComponent('db')
+#4 /Library/WebServer/libraries/yii/framework/gii/generators/model/ModelCode.php(54): CModule->__get('db')
+#5 /Library/WebServer/libraries/yii/framework/web/CFormModel.php(40): ModelCode->init()
+#6 /Library/WebServer/libraries/yii/framework/gii/CCodeGenerator.php(152): CFormModel->__construct()
+#7 /Library/WebServer/libraries/yii/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 /Library/WebServer/libraries/yii/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 /Library/WebServer/libraries/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /Library/WebServer/libraries/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /Library/WebServer/libraries/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('')
+#13 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/secrets/gii/model
+HTTP_REFERER=http://localhost/secrets/gii/default/index
+---
+2013/03/29 22:13:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/29 22:13:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 22:44:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/29 22:44:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 22:46:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/29 22:46:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 22:46:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/29 22:46:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 22:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/29 22:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 22:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/29 22:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/29 22:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/29 22:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/29 22:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 22:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/29 22:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 22:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/29 22:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/29 22:46:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 22:47:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/29 22:47:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 22:47:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 23:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/29 23:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 23:51:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/29 23:51:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 23:51:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/29 23:51:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 23:55:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/29 23:55:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/29 23:55:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/29 23:55:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 00:10:19 [error] [php] Undefined variable: username (/Library/WebServer/Documents/secrets/protected/extensions/UserIdentity/UserIdentity.php:30)
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /Library/WebServer/libraries/yii/framework/web/CController.php(287): SiteController->runAction()
+#2 /Library/WebServer/libraries/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#3 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): SiteController->run()
+#4 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#5 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /Library/WebServer/Documents/secrets/index.php(13): CWebApplication->run()
+REQUEST_URI=/secrets/site/login
+in /Library/WebServer/Documents/secrets/protected/extensions/UserIdentity/UserIdentity.php (30)
+in /Library/WebServer/Documents/secrets/protected/controllers/SiteController.php (49)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 00:16:25 [error] [php] Undefined variable: password (/Library/WebServer/Documents/secrets/protected/extensions/UserIdentity/UserIdentity.php:40)
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /Library/WebServer/libraries/yii/framework/web/CController.php(287): SiteController->runAction()
+#2 /Library/WebServer/libraries/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#3 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): SiteController->run()
+#4 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#5 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /Library/WebServer/Documents/secrets/index.php(13): CWebApplication->run()
+REQUEST_URI=/secrets/site/login
+in /Library/WebServer/Documents/secrets/protected/extensions/UserIdentity/UserIdentity.php (40)
+in /Library/WebServer/Documents/secrets/protected/controllers/SiteController.php (49)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 00:33:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/30 00:33:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 00:33:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 00:33:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 00:33:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "game".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('game')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('game')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/game/predi...')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/game/predicament
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 00:33:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "game".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('game')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('game')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/game/style...')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/game/style.css
+HTTP_REFERER=http://localhost/secrets/site/game/predicament
+---
+2013/03/30 00:33:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 00:33:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "game".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('game')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('game')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/game/predi...')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/game/predicament
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 00:33:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "game".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('game')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('game')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/game/style...')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/game/style.css
+HTTP_REFERER=http://localhost/secrets/site/game/predicament
+---
+2013/03/30 00:33:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 00:34:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 00:34:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 00:49:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/30 00:49:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 00:49:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 00:49:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 00:49:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "secrets".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('secrets')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('secrets')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/secrets/ga...')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/secrets/game/predicament
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 00:49:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "secrets".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('secrets')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('secrets')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/secrets/ga...')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/secrets/game/style.css
+HTTP_REFERER=http://localhost/secrets/site/secrets/game/predicament
+---
+2013/03/30 00:49:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 00:49:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "secrets".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('secrets')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('secrets')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/secrets/ga...')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/secrets/game/predicament
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 00:49:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "secrets".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('secrets')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('secrets')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/secrets/ga...')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/secrets/game/style.css
+HTTP_REFERER=http://localhost/secrets/site/secrets/game/predicament
+---
+2013/03/30 00:49:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 00:54:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/30 00:54:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 00:54:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 00:54:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 01:08:15 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.current_predicament" is not defined.' in /Library/WebServer/libraries/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/auth/CWebUser.php(141): CComponent->__get('current_predica...')
+#1 /Library/WebServer/Documents/secrets/protected/controllers/GameController.php(57): CWebUser->__get('current_predica...')
+#2 /Library/WebServer/libraries/yii/framework/web/actions/CInlineAction.php(50): GameController->actionPredicament()
+#3 /Library/WebServer/libraries/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Library/WebServer/libraries/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Library/WebServer/libraries/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('predicament')
+#7 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('game/predicamen...')
+#8 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/secrets/game/predicament
+---
+2013/03/30 01:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/30 01:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 01:13:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 01:13:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 01:13:26 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.current_predicament" is not defined.' in /Library/WebServer/libraries/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/auth/CWebUser.php(141): CComponent->__get('current_predica...')
+#1 /Library/WebServer/Documents/secrets/protected/controllers/GameController.php(57): CWebUser->__get('current_predica...')
+#2 /Library/WebServer/libraries/yii/framework/web/actions/CInlineAction.php(50): GameController->actionPredicament()
+#3 /Library/WebServer/libraries/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Library/WebServer/libraries/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Library/WebServer/libraries/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('predicament')
+#7 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('game/predicamen...')
+#8 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/secrets/game/predicament
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 01:13:39 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.record" is not defined.' in /Library/WebServer/libraries/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/auth/CWebUser.php(141): CComponent->__get('record')
+#1 /Library/WebServer/Documents/secrets/protected/controllers/GameController.php(57): CWebUser->__get('record')
+#2 /Library/WebServer/libraries/yii/framework/web/actions/CInlineAction.php(50): GameController->actionPredicament()
+#3 /Library/WebServer/libraries/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Library/WebServer/libraries/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Library/WebServer/libraries/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('predicament')
+#7 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('game/predicamen...')
+#8 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/secrets/game/predicament
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 01:13:41 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.record" is not defined.' in /Library/WebServer/libraries/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/auth/CWebUser.php(141): CComponent->__get('record')
+#1 /Library/WebServer/Documents/secrets/protected/controllers/GameController.php(57): CWebUser->__get('record')
+#2 /Library/WebServer/libraries/yii/framework/web/actions/CInlineAction.php(50): GameController->actionPredicament()
+#3 /Library/WebServer/libraries/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Library/WebServer/libraries/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Library/WebServer/libraries/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('predicament')
+#7 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('game/predicamen...')
+#8 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/secrets/game/predicament
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 01:13:41 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.record" is not defined.' in /Library/WebServer/libraries/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/auth/CWebUser.php(141): CComponent->__get('record')
+#1 /Library/WebServer/Documents/secrets/protected/controllers/GameController.php(57): CWebUser->__get('record')
+#2 /Library/WebServer/libraries/yii/framework/web/actions/CInlineAction.php(50): GameController->actionPredicament()
+#3 /Library/WebServer/libraries/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Library/WebServer/libraries/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Library/WebServer/libraries/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('predicament')
+#7 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('game/predicamen...')
+#8 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/secrets/game/predicament
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 01:30:08 [error] [exception.CException] exception 'CException' with message 'GameController cannot find the requested view "predicament".' in /Library/WebServer/libraries/yii/framework/web/CController.php:879
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(783): CController->renderPartial('predicament', Array, true)
+#1 /Library/WebServer/Documents/secrets/protected/controllers/GameController.php(45): CController->render('predicament', Array)
+#2 /Library/WebServer/libraries/yii/framework/web/actions/CInlineAction.php(50): GameController->actionPredicament()
+#3 /Library/WebServer/libraries/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Library/WebServer/libraries/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Library/WebServer/libraries/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('predicament')
+#7 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('game/predicamen...')
+#8 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/secrets/game/predicament
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 01:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('game/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/game/style.css
+HTTP_REFERER=http://localhost/secrets/game/predicament
+---
+2013/03/30 01:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 01:31:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('game/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/game/style.css
+HTTP_REFERER=http://localhost/secrets/game/predicament
+---
+2013/03/30 01:31:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 12:51:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/30 12:51:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 13:09:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/30 13:09:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 13:10:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/30 13:10:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 13:26:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 13:26:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/30 13:26:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 13:26:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/30 13:26:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 13:26:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 13:26:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 13:27:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 13:27:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 13:27:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 13:27:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 13:27:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('game/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/game/style.css
+HTTP_REFERER=http://localhost/secrets/game/predicament
+---
+2013/03/30 13:27:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 13:52:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('style.css')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/style.css
+HTTP_REFERER=http://localhost/secrets/
+---
+2013/03/30 13:52:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 13:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/site/style.css
+HTTP_REFERER=http://localhost/secrets/site/login
+---
+2013/03/30 13:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 13:52:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('style.css')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('style.css')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('game/style.css')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/game/style.css
+HTTP_REFERER=http://localhost/secrets/game/predicament
+---
+2013/03/30 13:52:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
