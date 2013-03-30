@@ -1,6 +1,8 @@
 <?php
 class SiteController extends Controller {
-	/* Housekeeping and configuration. */
+	/********************************************/
+	/* Behavioral and administrative functions. */
+	/********************************************/
 	public function actions() {
 		return array(
 			// captcha action renders the CAPTCHA image displayed on the contact page

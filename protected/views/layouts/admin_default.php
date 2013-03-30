@@ -18,7 +18,7 @@
 				<div id="header">
 					<div id="logo">
 						<h1>
-							<?php echo Yii::app()->user->mode->getHeader(); ?>
+							admin pages
 						</h1>
 					</div>
 					<div id="nav">
@@ -27,40 +27,22 @@
 					</div>
 				</div>
 				<div id="banner">
-					<!-- img src="images/pic1.jpg" width="1120" height="200" alt="" / -->
-					<?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/layout/secret_default/pic1.jpg', '...'); ?>
+					<?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/layout/secret_default/keys1.jpg', '...'); ?>
 				</div>
 				<div id="main">
 					<div id="sidebar">
-						<?php
-						$flavor_text = UserInterface::flavor_text();
-						/*
-						<p>
-							Suspendisse pretium leo convallis. Viverra augue euismod sodales etiam volutpat. Vulputate amet
-							sapien quis placerat et vulputate. Lorem ipsum dolor sit amet.
-						</p>
+						
 						<ul class="linkedList">
 							<li class="first">
-								<a href="#">Nulla diam vivamus</a>
+								<a href="<?php echo Yii::app()->createUrl('admin/debug'); ?>">Debug Page</a>
 							</li>
 							<li>
-								<a href="#">Pretium mollis cubilia</a>
-							</li>
-							<li>
-								<a href="#">Auctor est fermentum</a>
-							</li>
-							<li>
-								<a href="#">Praesent est ullamcorper</a>
+								<a href="<?php echo Yii::app()->createUrl('admin/list', array('what'=>'predicaments',)); ?>">Manage Predicaments</a>
 							</li>
 							<li class="last">
-								<a href="#">Volutpat et blandit</a>
+								<a href="javascript:var%20s%20=%20document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='http://erkie.github.com/asteroids.min.js';void(0);">Go mad with power.</a>
 							</li>
 						</ul>
-						*/ ?>
-						<h3>
-							<?php echo $flavor_text['title']; ?>
-						</h3>
-						<?php echo $flavor_text['text']; ?>
 					</div>
 					<div id="content">
 						<div id="content_main" class="content">
