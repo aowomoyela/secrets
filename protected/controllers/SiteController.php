@@ -50,7 +50,7 @@ class SiteController extends Controller {
 			$auth = $loginhandler->authenticate();
 			if ($auth === true) {
 				// Log in the user.
-				Yii::app()->user->login($loginhandler);
+				Yii::app()->user->login($loginhandler,0);
 				Yii::app()->request->redirect( Yii::app()->createUrl('game/predicament') );
 			} else {
 				// Display the login form.

@@ -20,6 +20,13 @@ class User extends CActiveRecord {
 	public $username;
 	public $current_predicament;
 	
+	public function get($request) {
+		$allowed = array('user_id', 'username', 'email', 'current_predicament', 'registered', 'last_login');
+		if ( in_array($request, $allowed) ) { return $this->$request; }
+		else { return null; }
+		
+	}
+	
 	public $password;
 	
 	public static function model($className=__CLASS__) { return parent::model($className); }

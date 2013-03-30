@@ -5,7 +5,7 @@ class GameMode {
 	
 	public function get($request) {
 		$allowed = array('mode', 'submode');
-		if ( in_array('request', $allowed) ) { return $this->$request; }
+		if ( in_array($request, $allowed) ) { return $this->$request; }
 		else { return null; }
 		
 	}

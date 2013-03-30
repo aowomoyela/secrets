@@ -2,10 +2,6 @@
 class UserIdentity extends CUserIdentity {
 	private $_id;
 	private $_username;
-	public $acting_as_type;
-	public $acting_as_id;
-	public $acting_as_type_code;
-	private $password_hash;
 
 	/********************************/
 	/* General getters and setters. */
@@ -44,10 +40,14 @@ class UserIdentity extends CUserIdentity {
 			return false;
         	} else {
 			// The user was found, and the password matched. Continue with login.
+			
 			// Store some information in persistent (session) storage.
 			$this->setState('model', $user);
 			$this->setState('mode', new GameMode() );
-			$this->setState('sidestory', 'Here you are again.');
+			
+			// Set up the ID and username.
+			$this->_id = $user->get('user_id');
+			$this->_username = $user->get('username');
 
 			// Return with no errors and a confirmation.
 	        	$this->errorCode==self::ERROR_NONE;

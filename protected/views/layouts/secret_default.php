@@ -31,10 +31,9 @@
 				</div>
 				<div id="main">
 					<div id="sidebar">
-						<?php /*
-						<h3>
-							Nascetur etiam et consequat amet
-						</h3>
+						<?php
+						$flavor_text = UserInterface::flavor_text();
+						/*
 						<p>
 							Suspendisse pretium leo convallis. Viverra augue euismod sodales etiam volutpat. Vulputate amet
 							sapien quis placerat et vulputate. Lorem ipsum dolor sit amet.
@@ -57,6 +56,10 @@
 							</li>
 						</ul>
 						*/ ?>
+						<h3>
+							<?php echo $flavor_text['title']; ?>
+						</h3>
+						<?php echo $flavor_text['text']; ?>
 					</div>
 					<div id="content">
 						<div id="content_main" class="content">

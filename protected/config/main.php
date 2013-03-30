@@ -9,7 +9,6 @@ return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'(secrets ? lies)',
 	'homeUrl'=>array('site/index'),
-
 	// preloading 'log' component
 	'preload'=>array('log'),
 
@@ -21,6 +20,7 @@ return array(
 		// Extensions.
 		'ext.dBug.*',
 		'ext.UserIdentity.*',
+		'ext.UserInterface.*',
 		'ext.UserSecurity.*',
 	),
 
@@ -37,6 +37,15 @@ return array(
 
 	// application components
 	'components'=>array(
+
+		'session' => array(
+			'autoStart' => true,
+			'sessionName' => 'SecretsWebSession',
+			'cookieParams' => array( 'httponly' => true, ),
+		),
+		'authManager' => array(
+			'class' => 'CPhpAuthManager',
+		),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
