@@ -3354,3 +3354,847 @@ Stack trace:
 REQUEST_URI=/secrets/css/images/shadow.png
 HTTP_REFERER=http://localhost/secrets/css/secret_default.css
 ---
+2013/03/30 17:04:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:04:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:04:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:05:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:15:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/wysiwyg/markitup/jquery.markitup.js".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('js/wysiwyg/mark...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/js/wysiwyg/markitup/jquery.markitup.js
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:15:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/wysiwyg/markitup/sets/default/style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('js/wysiwyg/mark...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/js/wysiwyg/markitup/sets/default/style.css
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:15:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/wysiwyg/markitup/skins/markitup/style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('js/wysiwyg/mark...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/js/wysiwyg/markitup/skins/markitup/style.css
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:15:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/wysiwyg/markitup/jquery.markitup.js".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('js/wysiwyg/mark...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/js/wysiwyg/markitup/jquery.markitup.js
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:15:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/wysiwyg/markitup/skins/markitup/style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('js/wysiwyg/mark...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/js/wysiwyg/markitup/skins/markitup/style.css
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:15:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/wysiwyg/markitup/sets/default/style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('js/wysiwyg/mark...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/js/wysiwyg/markitup/sets/default/style.css
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/wysiwyg/markitup/jquery.markitup.js".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('js/wysiwyg/mark...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/js/wysiwyg/markitup/jquery.markitup.js
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/wysiwyg/markitup/skins/markitup/style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('js/wysiwyg/mark...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/js/wysiwyg/markitup/skins/markitup/style.css
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/wysiwyg/markitup/skins/markitup/style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('js/wysiwyg/mark...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/js/wysiwyg/markitup/skins/markitup/style.css
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:16:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/wysiwyg/markitup/sets/default/style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('js/wysiwyg/mark...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/js/wysiwyg/markitup/sets/default/style.css
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:16:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/wysiwyg/markitup/jquery.markitup.js".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('js/wysiwyg/mark...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/js/wysiwyg/markitup/jquery.markitup.js
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:16:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/wysiwyg/markitup/skins/markitup/style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('js/wysiwyg/mark...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/js/wysiwyg/markitup/skins/markitup/style.css
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:16:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/wysiwyg/markitup/jquery.markitup.js".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('js/wysiwyg/mark...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/js/wysiwyg/markitup/jquery.markitup.js
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:16:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/wysiwyg/markitup/skins/markitup/style.css".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('js/wysiwyg/mark...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/js/wysiwyg/markitup/skins/markitup/style.css
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:16:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:18:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:18:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:19:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:19:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:19:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:21:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:21:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:23:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:23:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:23:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:24:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:24:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:26:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:27:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:28:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:28:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:29:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:29:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:29:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:30:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:30:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:30:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:30:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:31:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:31:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:31:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:31:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:35:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:35:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /Library/WebServer/libraries/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(271): CController->missingAction('admin')
+#1 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#2 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin/edi...')
+#3 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/secrets/admin/admin/edit
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:35:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:36:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 17:40:18 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (61)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:46:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/game/predicament
+---
+2013/03/30 17:46:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin
+---
+2013/03/30 17:47:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:47:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament&predicament_id=0
+---
+2013/03/30 17:47:27 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:47:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:48:53 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:49:30 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:49:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:49:44 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:49:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:49:59 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:50:35 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:50:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:50:52 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:50:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:51:14 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:51:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:51:31 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:51:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:51:41 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:51:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:52:04 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:52:22 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:52:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:52:37 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:52:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:52:49 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:52:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:53:21 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:53:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:53:43 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:53:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:53:56 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:53:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 17:54:03 [warning] [application] Failed to set unsafe attribute "predicament_id" of "Predicament".
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (60)
+in /Library/WebServer/Documents/secrets/index.php (13)
+2013/03/30 17:54:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/edit?what=predicament
+---
+2013/03/30 18:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 18:58:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 18:58:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 18:59:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 18:59:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 18:59:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/css/secret_default.css
+---
+2013/03/30 19:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/shadow.png".' in /Library/WebServer/libraries/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('css/images/shad...')
+#1 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/secrets/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/secrets/css/images/shadow.png
+HTTP_REFERER=http://localhost/secrets/admin/list?what=predicaments
+---
+2013/03/30 19:01:58 [error] [php] Undefined variable: predicament_id (/Library/WebServer/Documents/secrets/protected/views/admin/predicament_list.php:4)
+Stack trace:
+#0 /Library/WebServer/libraries/yii/framework/web/CController.php(870): AdminController->renderFile()
+#1 /Library/WebServer/libraries/yii/framework/web/CController.php(783): AdminController->renderPartial()
+#2 /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php(90): AdminController->render()
+#3 /Library/WebServer/libraries/yii/framework/web/actions/CInlineAction.php(50): AdminController->actionList()
+#4 /Library/WebServer/libraries/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Library/WebServer/libraries/yii/framework/web/filters/CFilterChain.php(134): AdminController->runAction()
+#6 /Library/WebServer/libraries/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Library/WebServer/libraries/yii/framework/web/filters/CFilterChain.php(131): AdminAuthFilter->filter()
+#8 /Library/WebServer/libraries/yii/framework/web/CController.php(292): CFilterChain->run()
+#9 /Library/WebServer/libraries/yii/framework/web/CController.php(266): AdminController->runActionWithFilters()
+#10 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(276): AdminController->run()
+#11 /Library/WebServer/libraries/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#12 /Library/WebServer/libraries/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Library/WebServer/Documents/secrets/index.php(13): CWebApplication->run()
+REQUEST_URI=/secrets/admin/list?what=predicaments
+in /Library/WebServer/Documents/secrets/protected/views/admin/predicament_list.php (4)
+in /Library/WebServer/Documents/secrets/protected/controllers/AdminController.php (90)
+in /Library/WebServer/Documents/secrets/index.php (13)

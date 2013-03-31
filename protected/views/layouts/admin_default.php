@@ -2,15 +2,18 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
+		<?php
+			// CSS files.
+			Yii::app()->clientScript->registerCssFile(Yii::app()->request->baseUrl.'/css/secret_default.css', 'screen, projection');
+			// Javascript files.
+			// // jQuery library.
+			Yii::app()->clientScript->registerScriptFile('http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js');
+			Yii::app()->clientScript->registerScriptFile('http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js');
+		?>
 		<meta name="keywords" content="" />
 		<meta name="description" content="" />
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<title><?php echo CHtml::encode($this->pageTitle . Yii::app()->params['servertitle']); ?></title>
-		<?php
-			Yii::app()->clientScript->registerCssFile(Yii::app()->request->baseUrl.'/css/secret_default.css', 'screen, projection');
-			Yii::app()->clientScript->registerScriptFile('http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js');
-			Yii::app()->clientScript->registerScriptFile('http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js');
-		?>
 	</head>
 	<body>
 		<div id="bg">

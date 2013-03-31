@@ -17,6 +17,13 @@ class Predicament extends CActiveRecord {
 	public $image;
 	public $description;
 	
+	public function get($request) {
+		$allowed = array('predicament_id', 'predicament_name', 'image', 'description');
+		if ( in_array($request, $allowed) ) { return $this->$request; }
+		else { return null; }
+		
+	}
+	
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
